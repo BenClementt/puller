@@ -2,7 +2,7 @@ const { exec } = require("child_process");
 const cron = require('node-cron')
 const chalk = require('chalk')
 
-var gitFolders = ['/var/www/html/the-amount-of-kink-this-site-gives-me-is-just-']
+var gitFolders = ['/var/www/html/']
 
 cron.schedule('* * * * *', () => {
     var i;
