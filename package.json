@@ -1,0 +1,27 @@
+{
+  "name": "puller",
+  "version": "1.0.0",
+  "description": "Pulls git repos ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/defectivenessyt/puller.git"
+  },
+  "keywords": [
+    "puller",
+    "git"
+  ],
+  "author": "Ben Caulfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/defectivenessyt/puller/issues"
+  },
+  "homepage": "https://github.com/defectivenessyt/puller#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "node-cron": "^2.0.3"
+  }
+}
