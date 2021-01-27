@@ -13,7 +13,7 @@ cron.schedule('* * * * *', () => {
                 return;
             }
             if(stderr){
-                console.log(chalk.red("[STDERR ERROR]" + chalk.white(" ") + chalk.white(stderr)))
+                console.log(chalk.green("[PULLED]" + chalk.white(" ") + chalk.white(stderr)))
                 return;
             }
 
